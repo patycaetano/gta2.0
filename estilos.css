@@ -1,0 +1,129 @@
+.cabecalho{
+    background-image: url("imagens/banner2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 369px;
+    height: 548px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 22px;
+}
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url("imagens/fundo.png");
+}
+.rodape{
+    text-align: center;
+    margin: 0;
+    background-image: url("imagens/rodape.png");
+    width: 369px;
+    height: 99px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.cabecalhopaginas{
+    background-image: url("imagens/banner2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 369px;
+    height: 191px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 22px;
+    text-align: right;
+}
+.imagem{
+    column-count: 2;
+    margin-right: 19px;
+    margin-left: 19px;
+    margin-top: 19px;
+
+}
+.texto{
+    text-align: justify;
+}
+.sinopse{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+}
+.manu{
+    height: 191px;
+}
+.formulario{
+    text-align: left;
+   
+}
+.botao1,
+.botao2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-color: blue;
+    color: black;
+    font-family: karantina;
+}
+.botao1{
+    background-color: aquamarine;  
+}
+
+.botao2{
+    background-color: aqua; 
+}
+hr{
+    size: 6px;
+    border-color: #0a4a04;
+}
+h1{
+    display: block;
+    font-family: Inter;
+    font-size: 6vw;  /* 6vw adapta o texto com o tamanho da tela */
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+label{
+    display: block;
+}
+input[type="submit"]{
+	background-color: #C0262C;
+	background: linear-gradient(to bottom,  #6b1516 0%,#c0262c 30%,#c0262c 70%,#6b1516 100%);
+	border: none;
+	border-radius: 30px;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 10px 30px;
+	margin: 20px 0;
+	text-shadow: 2px 2px 5px #000;
+	cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-family: Inter;
+} 
+.cadastro{
+    text-align: left;
+    padding: 10px 30px;
+    
+}
+.textos{
+    color:aliceblue;
+}
